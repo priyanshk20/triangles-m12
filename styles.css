@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 2px solid black;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left h1{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right li{
+    list-style: none;
+    margin: 10px;
+    padding: 0px 10px;
+    font-size:23px;
+}
+
+.right a{
+    text-decoration:none;
+    color: black;
+}
+.right a:hover{
+    color: gray;
+}
+
+.checkTriangle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.checkTriangle label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.checkTriangle input{
+    height: 30px;
+    min-width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+    font-size:25px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2rem;
+    font-weight: bold;
+}
