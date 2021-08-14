@@ -83,3 +83,29 @@ h2{
     margin-top: 2rem;
     font-weight: bold;
 }
+
+
+.question-container p{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    margin-top:1rem;
+}
+
+.answers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:0.5rem;
+    font-size:25px;
+    padding:1rem 2rem;
+}
+
+.question-container label{
+    padding: 0rem 2rem;
+}
+
+.question-container input{
+    margin: 1rem;
+    height: 1rem;
+}
