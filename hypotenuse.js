@@ -4,9 +4,12 @@ const output = document.querySelector('#check-output');
 const btn = document.querySelector('#btn');
 
 const hypotenuseCalc = (a,b) => {
-
+    if(a>0&&b>0){
     const c =  Math.sqrt((a*a) + (b*b));
     output.innerText = `The length of hypotenuse is ${c}`;
+    }else{
+        output.innerText = `Input valid values `;
+    }
 }
 
 btn.addEventListener('click', () => {

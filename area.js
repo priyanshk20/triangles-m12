@@ -13,8 +13,11 @@ btn.addEventListener('click', () => {
 
 
 const areaCalc = (base,height) => {
-
-    const area = 0.5*base*height;
-
-    output.innerText = `Area of the triangle is ${area} units`;
+    if(base>0&&height>0){
+        const area = 0.5*base*height;
+        output.innerText = `Area of the triangle is ${area} units`;
+    }else{
+        output.innerText = `Enter valid inputs`
+    }
+   
 }
